@@ -15,7 +15,7 @@ def main():
         return
 
     target.mkdir(parents=True, exist_ok=True)
-
+    
     # Dictionary to store { filename: path_object }
     latest_files_map = {}
 
